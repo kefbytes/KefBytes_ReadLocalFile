@@ -1,0 +1,37 @@
+{
+    "ResponseStatus": {
+        "Status": "SUCCESS"
+    },
+    "Response": {
+        "NetAvailableBalance": 24607.58,
+        "BankInfo": {
+            "Name": "KefBytes Bank & Trust",
+            "City": "Charlotte",
+            "State": "NC",
+            "ABA": "1234-5678-9"
+        },
+        "Accounts": {
+            "Count": 1,
+            "Account": [
+                {
+                    "Name": "SmokeTest CHK ACCT",
+                    "Number": "XXXXXXXX1234",
+                    "FISNumberHash": "a7083f6fb3f82cb7407c601f5de0a7e6",
+                    "Status": "Active",
+                    "CurrentBalance": 2595.26,
+                    "AvailableBalance": 2595.26,
+                    "Relationship": "SINGLE",
+                    "ProductId": "4200",
+                    "AccountType": "DDA",
+                    "Description": "Interest Checking",
+                    "DateOpened": "2015-03-25",
+                    "FundsOnHold": 0,
+                    "APY": 9.99,
+                    "YTDInterestPaid": 0.87,
+                    "InterestRate": 0.002,
+                    "HoldRestrictions": false
+                },
+            ]
+        }
+    }
+}
